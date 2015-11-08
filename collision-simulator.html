@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head lang="en-US">
+    <!-- ================================================ -->
+    <meta charset="utf-8"/>
+    <title>collision-simulator</title>
+    <!-- ================================================ -->
+    <link rel="stylesheet" type="text/css" href="css/temax-page-loader.css"/>
+    <link rel="stylesheet" type="text/css" href="css/temax-fonts.css"/>
+    <link rel="stylesheet" type="text/css" href="css/collision-simulator.css"/>
+    <!-- ================================================ -->
+    <script type="text/javascript" src="js/temax-page-loader.js"></script>
+    <script type="text/javascript" src="js/settings.js"></script>
+    <script type="text/javascript" src="js/temax-main.js"></script>
+    <script type="text/javascript" src="js/collision-simulator.js"></script>
+    <!-- ================================================ -->
+    <!-- ================================================ -->
+</head>
+<body>
+<!-- ======================================================================= -->
+<div id="page_loader_bol"></div>
+<div id="page_loader_box">
+    <div id="page_loader_img"></div> <div id="page_loader_text"></div>
+</div>
+<!-- ======================================================================= -->
+<div id="app-main-box">
+    
+    <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+    <div id="app-header-box">
+        <div id="app-window-icon"></div>
+        <div id="app-window-title">JS-collision-simulator v0.0.1</div>
+        <div id="app-window-control-box">CTRL</div>
+    </div>
+
+    <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+    <div id="main-left-box">
+        
+        <div id="grid-box" class="no-select text_shadow">
+            <!--
+            -->
+            <div id="grid-box-cells-holder" class="no-select text_shadow"></div>
+            <canvas width="700px" height="500px" id="canvas"></canvas>
+            <!-- 
+            -->
+            
+            <!--
+            <div id="_B_LAYER"></div>
+            -->
+
+            <div id="_OBST_A" class="no-select text_shadow box_shadow" onmousedown="OBST_mouseDown(this, event, 'A')" onmouseup="OBST_mouseUp(this, event, 'A')" onmousemove="OBST_mouseMove(this, event, 'A')" onclick="OBST_click(this, event, 'A')">:A:</div>
+            <div id="_OBST_B" class="no-select text_shadow box_shadow" onmousedown="OBST_mouseDown(this, event, 'B')" onmouseup="OBST_mouseUp(this, event, 'B')" onmousemove="OBST_mouseMove(this, event, 'B')" onclick="OBST_click(this, event, 'B')">:B:</div>
+            <div id="_OBST_C" class="no-select text_shadow box_shadow" onmousedown="OBST_mouseDown(this, event, 'C')" onmouseup="OBST_mouseUp(this, event, 'C')" onmousemove="OBST_mouseMove(this, event, 'C')" onclick="OBST_click(this, event, 'C')">:C:</div>            
+            <div id="_PLAYER" class="no-select text_shadow box_shadow">
+                <div id="_INFO_BOX">{0, 0}</div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+    <div id="main-right-box">
+
+        <!-- ============================================== -->
+        <div class="_line"></div>
+        <!-- ============================================== -->
+        <div class="menu-item-text"> 
+
+        <button id="_start_btn" style="display: block; width: 160px; background-color: #0F0;" onclick="_start()">_start()</button>
+        <button id="_stop_btn" style="display: none; width: 160px; background-color: #F00;" onclick="_stop()">STOP</button>
+
+        </div>
+        <!-- ============================================== -->
+        <div class="_line"></div>
+        <!-- ============================================== -->
+        <div class="menu-item-text"> 
+
+
+
+
+        </div>
+        <!-- ============================================== -->
+
+    </div>
+    <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+    <div id="main-status-box">
+        status-box
+    </div>
+    <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+</div>
+<!-- ======================================================================= -->
+<!--
+
+-->    
+<!-- ======================================================================= -->
+</body>
+</html>

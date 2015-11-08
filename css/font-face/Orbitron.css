@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Orbitron-Light'), local('Orbitron-Regular'), url(http://fonts.gstatic.com/s/orbitron/v6/94ug0rEgQO_WuI_xKJMFc_esZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}

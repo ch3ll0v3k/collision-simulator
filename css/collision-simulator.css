@@ -1,0 +1,149 @@
+/* -------------------------------------------------------------------------- */
+/*
+font-family: 'arial-narrow';
+font-family: 'Audiowide';
+font-family: 'Cherry-Cream-Soda';
+font-family: 'Gloria-Hallelujah';
+
+font-family: 'capture_it';
+font-family: 'capture_it_2';
+font-family: 'tesla';
+font-family: 'Orbitron';
+
+/* -------------------------------------------------------------------------- */
+/*
+body{
+    margin: 0; padding: 0; overflow: hidden;
+}
+*/
+/* -------------------------------------------------------------------------- */
+.no-select{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* -------------------------------------------------------------------------- */
+#app-main-box{ 
+    width: 904px; height: 528px; margin: 20px auto;  border: solid 1px #333; border-top: solid 26px #333; 
+    border-top-left-radius: 6px; border-top-right-radius: 6px; 
+    display: none; background-color: #fff;
+    box-shadow: 0 0 225px #999; 
+    /*
+    padding: 2px 0 0 2px;
+    box-shadow: 0 0 5px #00F; padding: 2px 0 0 2px;
+    */
+}
+#app-header-box{
+    float: left; display: block; width: 800px; height: 24px; margin-top: -24px; color: #fff; 
+    padding-left: 10px; line-height: 24px; margin-bottom: 1px;
+}
+
+#app-window-icon{
+    float: left; display: block; width: 24px; height: 24px; padding-left: 10px; line-height: 24px;
+    background-image: url('../data/imgs/icon.png'); background-repeat:  no-repeat; background-size:  22px; 
+}
+#app-window-title{
+    font-family: 'Audiowide'; font-size: 16px; color: #BBB; text-shadow: 2px 2px 1px #000;
+}
+
+#main-left-box{
+    float: left; width: 700px; height: 500px; 
+}
+#grid-box{
+    z-index: 60; position: absolute; width: 700px; height: 500px; display: block; background-color: #888;
+}
+#grid-box-cells-holder{
+    z-index: 61; position: absolute; width: 700px; height: 500px; display: block; background-color: #888;
+}
+
+#canvas{
+    /*
+    */
+    z-index: 62; position: absolute; box-shadow: 0 0 0 2px #333 inset;
+}
+/*
+#_B_LAYER{
+    z-index: 61; position: absolute; width: 700px; height: 500px; background-color: rgba(127,0,0, 0.5);
+    display: block;
+}
+*/
+.grid-cell{
+    float: left; display: block;
+    width: 49px; height: 49px; border-right: dashed 1px #666; border-bottom: dashed 1px #666; 
+    background-color: rgba(3, 3, 3, 1); 
+}
+
+/* -------------------------------------------------------------------------- */
+#main-right-box{
+    float: left; width: 193px; height: 490px; padding: 5px; margin-left: 1px; 
+    /*
+    box-shadow: 0 0 0 2px #333 inset; 
+    */
+}
+
+.menu-item-text{
+    float: left; display: block; padding: 10px; font-family: 'Audiowide'; font-size: 16px; 
+    /*
+    box-shadow: 0 0 2px red;
+    */
+}
+/* -------------------------------------------------------------------------- */
+#main-status-box{
+
+    float: left; width: 900px; height: 27px; padding-left: 5px; line-height: 27px;
+    font-family: 'Orbitron'; font-weight: bold; color: #F00; border-top: solid 1px #333;  
+    /*
+    box-shadow: 0 0 0 2px #333 inset; 
+    */
+}
+
+/* -------------------------------------------------------------------------- */
+
+#_OBST_A{
+    z-index: 1001; position: absolute; background-color: rgba(255,0,0,0.9); display: block; text-align: center;
+    font-size: 32px; font-family: 'Gloria-Hallelujah'; cursor: pointer;
+}
+#_OBST_B{
+    z-index: 1002; position: absolute; background-color: rgba(0,255,255,0.9); display: block; text-align: center;
+    font-size: 32px; font-family: 'Gloria-Hallelujah'; cursor: pointer;
+}
+#_OBST_C{
+    z-index: 1003; position: absolute; background-color: rgba(0,0,255,0.9); display: block; text-align: center;
+    font-size: 32px; font-family: 'Gloria-Hallelujah'; cursor: pointer;
+}
+
+#_PLAYER{
+    z-index: 1004; position: absolute; background-color: rgba(255,255,255,0.9); display: block; text-align: center;
+    font-size: 32px; font-family: 'Gloria-Hallelujah'; cursor: pointer;
+}
+#_INFO_BOX{
+    z-index: 1005; position: absolute; display: block; width: 230px; color: #0F0; font-size: 18px; 
+    text-align: left; font-family: 'Orbitron';  margin: -52px 0 0 0;
+    /*
+    box-shadow: 0 0 5px red; 
+    */
+}
+
+
+.box_shadow{
+    box-shadow: 0 0 10px 1px #0F0 inset;
+}
+/* -------------------------------------------------------------------------- */
+._line{
+    float: left; width: 90%; margin-left: 5%; display: block; border-bottom: dashed 1px #000;
+    margin-top: 10px; margin-bottom: 10px; 
+}
+/* -------------------------------------------------------------------------- */
+.bg-red{        background-color: #F00; }
+.bg-green{      background-color: #0F0; }
+.bg-blue{       background-color: #00F; }
+.bg-yellow{     background-color: yellow; }
+.bg-purple{     background-color: purple; }
+.bg-orange{     background-color: orange; }
+/* -------------------------------------------------------------------------- */
+.text_shadow{
+    text-shadow: 0 0 1px #fff;
+}

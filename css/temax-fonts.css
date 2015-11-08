@@ -1,0 +1,113 @@
+/* **************************************************************************************** */
+@font-face {
+    font-family: 'Cherry-Cream-Soda'; font-style: normal; font-weight: 400;
+    src: local('Cherry Cream Soda'), local('CherryCreamSoda'), url('../fonts/Cherry_Cream_Soda.wott') format('woff');
+}
+@font-face {
+    font-family: 'Audiowide'; font-style: normal; font-weight: 400;
+    src: local('Audiowide'), local('Audiowide-Regular'), url('../fonts/Audiowide.wott') format('woff');
+}
+@font-face {
+    font-family: 'Gloria-Hallelujah'; font-style: normal; font-weight: 400;
+    src: local('Gloria Hallelujah'), local('GloriaHallelujah'), url('../fonts/Gloria_Hallelujah.woff') format('woff');
+}
+@font-face {
+    font-family: 'arial-narrow'; font-style: normal; font-weight: 400; src: url('../fonts/arial-narrow.ttf');
+}
+@font-face {
+    font-family: 'capture_it'; font-style: normal; font-weight: 400; src: url('../fonts/Capture_it.ttf');
+}
+@font-face {
+    font-family: 'capture_it_2'; font-style: normal; font-weight: 400; src: url('../fonts/Capture_it_2.ttf');
+}
+@font-face {
+    font-family: 'tesla'; font-style: normal; font-weight: 400; src: url('../fonts/tesla.ttf');
+}
+
+@font-face {
+    font-family: 'Orbitron'; font-style: normal; font-weight: 400;
+    src: local('Orbitron-Light'), local('Orbitron-Regular'), url('../fonts/Orbitron.wott') format('woff');
+}
+/* **************************************************************************************** */
+
+/*
+font-family: 'arial-narrow';
+font-family: 'Audiowide';
+font-family: 'Cherry-Cream-Soda';
+font-family: 'Gloria-Hallelujah';
+
+font-family: 'capture_it';
+font-family: 'capture_it_2';
+font-family: 'tesla';
+font-family: 'Orbitron';
+*/
+
+/* **************************************************************************************** */
+/*
+@import url(http://fonts.googleapis.com/css?family=IM+Fell+English:400italic&subset=latin,latin-ext);
+see font sample @ http://lucumr.pocoo.org/2014/8/16/the-python-i-would-like-to-see/
+.this_class{ 
+  font: 17px/25px 'Merriweather', serif;
+}
+*/ 
+/* **************************************************************************************** */
+.font_1{font-family: Impact, Charcoal, sans-serif;}
+.font_2{font-family: Courier, monospace;}
+.font_3{font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;}
+.font_4{font-family: Tahoma, Geneva, sans-serif;}
+.font_5{font-family: Verdana, Geneva, sans-serif;}
+.font_6{font-family: Tahoma, monospace;}
+/* **************************************************************************************** */
+.normal{ font-style: normal; font-weight: normal;}
+.italic{ font-style: italic; font-weight: normal;}
+/* ------------------------------------------------------------------ */
+.normal_bold{ font-style: normal; font-weight: bold;}
+.italic_bold{ font-style: italic; font-weight: bold;}
+/* ------------------------------------------------------------------ */
+.size_12{ font-size: 12px; } .size_13{ font-size: 13px; }
+.size_14{ font-size: 14px; } .size_15{ font-size: 15px; }
+.size_16{ font-size: 16px; } .size_17{ font-size: 17px; }
+.size_18{ font-size: 18px; } .size_19{ font-size: 19px; }
+.size_20{ font-size: 20px; } .size_21{ font-size: 21px; }
+
+.size_22{ font-size: 22px; } .size_23{ font-size: 23px; }
+.size_24{ font-size: 24px; } .size_25{ font-size: 25px; }
+.size_26{ font-size: 26px; } .size_27{ font-size: 27px; } 
+.size_28{ font-size: 28px; } .size_29{ font-size: 29px; } 
+.size_30{ font-size: 30px; } .size_31{ font-size: 31px; } 
+
+.size_31{ font-size: 32px; } .size_33{ font-size: 33px; } 
+.size_34{ font-size: 34px; } .size_35{ font-size: 35px; } 
+.size_36{ font-size: 36px; } .size_37{ font-size: 37px; } 
+.size_38{ font-size: 38px; } .size_39{ font-size: 39px; } 
+.size_40{ font-size: 40px; } .size_41{ font-size: 41px; } 
+
+.size_42{ font-size: 42px; } .size_43{ font-size: 43px; } 
+.size_46{ font-size: 46px; } 
+
+/* **************************************************************************************** *//* **************************************************************************************** */
+.white { color: white; text-decoration: none;}
+.red   { color: red; text-decoration: none;}
+.green { color: green; text-decoration: none;}
+.blue  { color: blue; text-decoration: none;}
+.gray  { color: gray; text-decoration: none;}
+.black { color: black; text-decoration: none;}
+
+.yellow{ color: yellow; text-decoration: none;}
+.purple{ color: purple; text-decoration: none;}
+
+/* **************************************************************************************** */
+.white_a{ color: #fff; text-decoration: none;}
+.red_a  { color: #f00; text-decoration: none;}
+.green_a{ color: #0f0; text-decoration: none;}
+.blue_a { color: #00f; text-decoration: none;}
+.gray_a { color: #333; text-decoration: none;}
+.black_a{ color: #000; text-decoration: none;}
+/* ----------------------------- */
+.white_a:hover{ color: #f00;}
+.red_a:hover  { color: #00f;}
+.green_a:hover{ color: #f00;}
+.blue_a:hover { color: #f00;}
+.gray_a:hover { color: #f00;}
+.black_a:hover{ color: #f00;}
+/* **************************************************************************************** */
